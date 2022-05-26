@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from '../logo.svg';
 import'bootstrap/dist/css/bootstrap.css';
 import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
-function App() {
+function NavBar() {
   return (
     <div className="App">
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand>
-          <img src={logo} width="40px"/>
+        <img src={logo} width="40px" alt="logo"/>
           Logo
         </Navbar.Brand>
         <Nav>
@@ -27,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default NavBar;
