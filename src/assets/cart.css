@@ -1,0 +1,8 @@
+.cart{
+    color: white;
+    text-align:right;
+}
+.barra{
+    display: flex;
+    justify-content: space-evenly;
+}
